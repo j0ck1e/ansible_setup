@@ -1,0 +1,337 @@
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "149.28.20.70"
+        ],
+        "ansible_all_ipv6_addresses": [
+            "fe80::5400:1ff:fec4:c367"
+        ],
+        "ansible_apparmor": {
+            "status": "disabled"
+        },
+        "ansible_architecture": "x86_64",
+        "ansible_bios_date": "04/01/2014",
+        "ansible_bios_version": "rel-1.11.2-0-gf9626ccb91-prebuilt.qemu-project.org",
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "/boot/vmlinuz-4.9.0-8-amd64",
+            "consoleblank": "0",
+            "quiet": true,
+            "ro": true,
+            "root": "UUID=b675bfb3-4b7f-42eb-b0b6-62225e3bbba5"
+        },
+        "ansible_date_time": {
+            "date": "2018-11-28",
+            "day": "28",
+            "epoch": "1543391116",
+            "hour": "07",
+            "iso8601": "2018-11-28T07:45:16Z",
+            "iso8601_basic": "20181128T074516916031",
+            "iso8601_basic_short": "20181128T074516",
+            "iso8601_micro": "2018-11-28T07:45:16.916117Z",
+            "minute": "45",
+            "month": "11",
+            "second": "16",
+            "time": "07:45:16",
+            "tz": "UTC",
+            "tz_offset": "+0000",
+            "weekday": "Wednesday",
+            "weekday_number": "3",
+            "weeknumber": "48",
+            "year": "2018"
+        },
+        "ansible_default_ipv4": {
+            "address": "149.28.20.70",
+            "alias": "ens3",
+            "broadcast": "149.28.21.255",
+            "gateway": "149.28.20.1",
+            "interface": "ens3",
+            "macaddress": "56:00:01:c4:c3:67",
+            "mtu": 1500,
+            "netmask": "255.255.254.0",
+            "network": "149.28.20.0",
+            "type": "ether"
+        },
+        "ansible_default_ipv6": {},
+        "ansible_device_links": {
+            "ids": {
+                "sr0": [
+                    "ata-QEMU_DVD-ROM_QM00003"
+                ]
+            },
+            "labels": {},
+            "masters": {},
+            "uuids": {
+                "vda1": [
+                    "b675bfb3-4b7f-42eb-b0b6-62225e3bbba5"
+                ]
+            }
+        },
+        "ansible_devices": {
+            "sr0": {
+                "holders": [],
+                "host": "IDE interface: Intel Corporation 82371SB PIIX3 IDE [Natoma/Triton II]",
+                "links": {
+                    "ids": [
+                        "ata-QEMU_DVD-ROM_QM00003"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "QEMU DVD-ROM",
+                "partitions": {},
+                "removable": "1",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "cfq",
+                "sectors": "2097151",
+                "sectorsize": "512",
+                "size": "1024.00 MB",
+                "support_discard": "0",
+                "vendor": "QEMU",
+                "virtual": 1
+            },
+            "vda": {
+                "holders": [],
+                "host": "SCSI storage controller: Red Hat, Inc Virtio block device",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {
+                    "vda1": {
+                        "holders": [],
+                        "links": {
+                            "ids": [],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": [
+                                "b675bfb3-4b7f-42eb-b0b6-62225e3bbba5"
+                            ]
+                        },
+                        "sectors": "41940959",
+                        "sectorsize": 512,
+                        "size": "20.00 GB",
+                        "start": "2048",
+                        "uuid": "b675bfb3-4b7f-42eb-b0b6-62225e3bbba5"
+                    }
+                },
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": "41943040",
+                "sectorsize": "512",
+                "size": "20.00 GB",
+                "support_discard": "0",
+                "vendor": "0x1af4",
+                "virtual": 1
+            }
+        },
+        "ansible_distribution": "Debian",
+        "ansible_distribution_file_parsed": true,
+        "ansible_distribution_file_path": "/etc/os-release",
+        "ansible_distribution_file_variety": "Debian",
+        "ansible_distribution_major_version": "9",
+        "ansible_distribution_release": "stretch",
+        "ansible_distribution_version": "9.5",
+        "ansible_dns": {
+            "nameservers": [
+                "108.61.10.10"
+            ]
+        },
+        "ansible_domain": "",
+        "ansible_effective_group_id": 0,
+        "ansible_effective_user_id": 0,
+        "ansible_ens3": {
+            "active": true,
+            "device": "ens3",
+            "ipv4": {
+                "address": "149.28.20.70",
+                "broadcast": "149.28.21.255",
+                "netmask": "255.255.254.0",
+                "network": "149.28.20.0"
+            },
+            "ipv6": [
+                {
+                    "address": "fe80::5400:1ff:fec4:c367",
+                    "prefix": "64",
+                    "scope": "link"
+                }
+            ],
+            "macaddress": "56:00:01:c4:c3:67",
+            "module": "virtio_net",
+            "mtu": 1500,
+            "pciid": "virtio0",
+            "promisc": false,
+            "speed": -1,
+            "type": "ether"
+        },
+        "ansible_env": {
+            "HOME": "/root",
+            "LOGNAME": "root",
+            "MAIL": "/var/mail/root",
+            "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "PWD": "/root",
+            "SHELL": "/bin/bash",
+            "SHLVL": "1",
+            "SSH_CLIENT": "116.228.38.122 42868 22",
+            "SSH_CONNECTION": "116.228.38.122 42868 149.28.20.70 22",
+            "SSH_TTY": "/dev/pts/0",
+            "TERM": "xterm",
+            "USER": "root",
+            "XDG_RUNTIME_DIR": "/run/user/0",
+            "XDG_SESSION_ID": "1",
+            "_": "/bin/sh"
+        },
+        "ansible_fips": false,
+        "ansible_form_factor": "Other",
+        "ansible_fqdn": "localhost",
+        "ansible_hostname": "vultr",
+        "ansible_interfaces": [
+            "lo",
+            "ens3"
+        ],
+        "ansible_is_chroot": false,
+        "ansible_iscsi_iqn": "",
+        "ansible_kernel": "4.9.0-8-amd64",
+        "ansible_lo": {
+            "active": true,
+            "device": "lo",
+            "ipv4": {
+                "address": "127.0.0.1",
+                "broadcast": "host",
+                "netmask": "255.0.0.0",
+                "network": "127.0.0.0"
+            },
+            "ipv6": [
+                {
+                    "address": "::1",
+                    "prefix": "128",
+                    "scope": "host"
+                }
+            ],
+            "mtu": 65536,
+            "promisc": false,
+            "type": "loopback"
+        },
+        "ansible_local": {},
+        "ansible_lsb": {
+            "codename": "stretch",
+            "description": "Debian GNU/Linux 9.5 (stretch)",
+            "id": "Debian",
+            "major_release": "9",
+            "release": "9.5"
+        },
+        "ansible_machine": "x86_64",
+        "ansible_machine_id": "75093b2d2fcb46a5a5d3fe8b77b31914",
+        "ansible_memfree_mb": 342,
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 435,
+                "used": 57
+            },
+            "real": {
+                "free": 342,
+                "total": 492,
+                "used": 150
+            },
+            "swap": {
+                "cached": 0,
+                "free": 0,
+                "total": 0,
+                "used": 0
+            }
+        },
+        "ansible_memtotal_mb": 492,
+        "ansible_mounts": [
+            {
+                "block_available": 4588277,
+                "block_size": 4096,
+                "block_total": 5154063,
+                "block_used": 565786,
+                "device": "/dev/vda1",
+                "fstype": "ext4",
+                "inode_available": 1241311,
+                "inode_total": 1280000,
+                "inode_used": 38689,
+                "mount": "/",
+                "options": "rw,relatime,errors=remount-ro,data=ordered",
+                "size_available": 18793582592,
+                "size_total": 21111042048,
+                "uuid": "b675bfb3-4b7f-42eb-b0b6-62225e3bbba5"
+            }
+        ],
+        "ansible_nodename": "vultr.guest",
+        "ansible_os_family": "Debian",
+        "ansible_pkg_mgr": "apt",
+        "ansible_processor": [
+            "0",
+            "GenuineIntel",
+            "Virtual CPU a7769a6388d5"
+        ],
+        "ansible_processor_cores": 1,
+        "ansible_processor_count": 1,
+        "ansible_processor_threads_per_core": 1,
+        "ansible_processor_vcpus": 1,
+        "ansible_product_name": "Standard PC (i440FX + PIIX, 1996)",
+        "ansible_product_serial": "NA",
+        "ansible_product_uuid": "5CE7EF99-6579-4B56-B66D-C3D06EEE5579",
+        "ansible_product_version": "pc-i440fx-3.0",
+        "ansible_python": {
+            "executable": "/usr/bin/python",
+            "has_sslcontext": true,
+            "type": "CPython",
+            "version": {
+                "major": 2,
+                "micro": 13,
+                "minor": 7,
+                "releaselevel": "final",
+                "serial": 0
+            },
+            "version_info": [
+                2,
+                7,
+                13,
+                "final",
+                0
+            ]
+        },
+        "ansible_python_version": "2.7.13",
+        "ansible_real_group_id": 0,
+        "ansible_real_user_id": 0,
+        "ansible_selinux": {
+            "status": "Missing selinux Python library"
+        },
+        "ansible_selinux_python_present": false,
+        "ansible_service_mgr": "systemd",
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBODHwXwXsAdrM2uo8w+MX+cABujTEpNcvGkOm30vCYwMP/Z8tWUCG1yeaq9t9iGXiTveDkqsjPC5Xhf6nPPTO4k=",
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIHVDs7EGMzBKZQZ0C0T0UoBbMKoKRFseqB1mh0m+UepH",
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDAkcUUZdoKBKlR+weloFfV/4WmtmkZBKqv6GOfVqGAiVK5D6MSKzWG8pEQh2haNuAfaViRXgbZlLfW03Eq0crXXVXBYRf4iOhIWmJdXXprmT4SuQt5PALQmTjU2WQMjB1xVoqbpAoIYOoH2bT+xgEdf3bK9m/4VRrcnFPFjnvSPD9divQDcTbrEwlnxMB6RaeFMXPMrMbFGjd9822We1Zm7AZvKlW8G4TbBCYWvvFD4uIuUenoBhGjzDjtjufSCA7mQHDFO78LTfAv1XdXWsxQz0+7DcdJ0UEB+RXB0JdqbeBec1793zaZ7BShP1APCa7bEwIBl/hujYQqR5SIoEvV",
+        "ansible_swapfree_mb": 0,
+        "ansible_swaptotal_mb": 0,
+        "ansible_system": "Linux",
+        "ansible_system_vendor": "QEMU",
+        "ansible_uptime_seconds": 22,
+        "ansible_user_dir": "/root",
+        "ansible_user_gecos": "root",
+        "ansible_user_gid": 0,
+        "ansible_user_id": "root",
+        "ansible_user_shell": "/bin/bash",
+        "ansible_user_uid": 0,
+        "ansible_userspace_architecture": "x86_64",
+        "ansible_userspace_bits": "64",
+        "ansible_virtualization_role": "guest",
+        "ansible_virtualization_type": "kvm",
+        "gather_subset": [
+            "all"
+        ],
+        "module_setup": true
+    },
+    "changed": false
+}
+
